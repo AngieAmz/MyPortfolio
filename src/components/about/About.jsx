@@ -1,6 +1,5 @@
 import React from 'react';
 import './about.css';
-import me from '../../assets/me-about.jpeg';
 import {FaAward} from 'react-icons/fa';
 import {MdDeveloperMode} from 'react-icons/md'
 
@@ -11,34 +10,29 @@ const About = () => {
             <h2>~ Sobre Mi ~</h2>
 
             <div className='container about__container'>
-                <div className="about__me">
-                    <div className="about__me-image">
-                        <img src={me} alt="About" />
-                    </div>
-                </div>
                 <div className="about__content">
                     <div className="about__cards">
                         <article className='about__card'>
                             <FaAward className='about__icon'/>
                             <h5>Conocimientos</h5>
-                            <small>Estudiante de término de la carrera de informática</small>
+                            <small>Licenciatura en informatica en la Universidad del Caribe</small>
                         </article>
                         <article className='about__card'>
                             <MdDeveloperMode className='about__icon'/>
                             <h5>Experiencia</h5>
-                            <small>1 año de experiencia desarrollando proyectos independientes</small>
+                            <small>Desarrollo web fullStack / frontend de proyectos personales y profesionales</small>
                         </article>
                     </div>
 
                     <p>
-                        ¡Hola! Soy Anyelina, desarrolladora full-stack junior en el area de desarrollo 
-                        web. Mi experiencia laboral se reduce a proyectos realizados de forma independiente
-                        para venta como freelancer, sin embargo mis objetivos son incorporarme a un equipo y
-                        dar lo mejor de mi para destacar en mi area, aprendiendo por el camino todo lo necesario
-                        para incrementar mis capacidades como programadora.
+                        ¡Hola! Soy Anyelina, desarrolladora full-stack con sólidos conocimientos en el desarrollo web. Me especializo 
+                        en crear soluciones técnologicas y mi trayectoria incluye proyectos para distintos sectores, como el sector
+                        financiero y el sector salud. He trabajado en el desarrollo de proyectos que van desde sistemas de turno 
+                        y sitios web hasta el mantenimiento y mejora de sistemas financieros, de tickets y de documentos. 
+                        <br/>
                         <br/>
                         
-                        Si te interesa lo que tengo para ofrecer o deseas poner a prueba mis capacidades:
+                        Si buscas un profesional comprometido y deseas poner a prueba mis conocimientos, no dudes en contactarme:
                     </p>
 
                     <a href="#contact" className='btn btn-primary'> ¡Contáctame! </a>

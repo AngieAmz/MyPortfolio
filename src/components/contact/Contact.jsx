@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.css';
 import {FiMail} from 'react-icons/fi';
-import {BsInstagram, BsTelephone} from 'react-icons/bs';
+import {BsLinkedin, BsTelephone} from 'react-icons/bs';
 
 
 const Contact = () => {
@@ -18,10 +18,10 @@ const Contact = () => {
                     <a href="mailto:anyelinaalmanzar.opx@gmail.com">Envíame un mensaje</a>
                 </div>
                 <div className="contact__cards">
-                    <BsInstagram className='icon'/>
-                    <h2>Instagram</h2>
-                    <h5 className='text-light'>Anyi Amz</h5>
-                    <a href="https://www.instagram.com/anyiamz/" rel='noreferrer' target='_blank'>Escríbeme DM</a>
+                    <BsLinkedin className='icon'/>
+                    <h2>Perfil</h2>
+                    <h5 className='text-light'>Anyelina Almanzar</h5>
+                    <a href="https://www.linkedin.com/in/anyelina-almanzar/" rel='noreferrer' target='_blank'>Escríbeme</a>
                 </div>
                 <div className="contact__cards">
                     <BsTelephone className='icon'/>
