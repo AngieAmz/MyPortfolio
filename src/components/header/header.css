@@ -1,5 +1,6 @@
 header {
     height: 100vh;
+    max-height: 780px;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -44,7 +45,7 @@ header {
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 32rem;
+    height: 28rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 2rem;
@@ -67,7 +68,7 @@ header {
 @media screen and (max-width: 1024px){
 
     header{
-        height: 68vh;
+        height: 80vh;
     }
 }
 
