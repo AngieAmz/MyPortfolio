@@ -5,7 +5,6 @@ import appPresupuesto from '../../assets/AppPresupuesto.jpg';
 import AppTurnos from '../../assets/AppTurnos.jpg';
 import cmem from '../../assets/PaginaClinica.jpg';
 import appMVC from '../../assets/AppMVC.jpg';
-import todoapp from '../../assets/todoAPP.jpg';
 import VuePage from '../../assets/VuePage.png'
 
 const Portfolio = () => {
