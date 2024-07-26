@@ -12,6 +12,11 @@
     transition: var(--transition);
 }
 
+.portfolio__item p{
+    font-size: 14px;
+    margin: 0 0 1.3rem;
+}
+
 .portfolio__item:hover{
     border-color: var(--color-primary-variant);
     background: transparent;
@@ -21,12 +26,12 @@
     border-radius: 1rem;
     overflow: hidden;
 }
-.portolio__item-image #img{
-    height: 180px;
+.portolio__item-image img{
+    height: 210px;
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1rem;
 }
 
 .portfolio__item-cta{
